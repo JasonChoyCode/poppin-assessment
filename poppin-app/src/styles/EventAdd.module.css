@@ -1,0 +1,69 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centerContainer {
+  width: 30rem;
+  max-width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search::placeholder {
+  color: white;
+}
+
+.search {
+  width: 100%;
+  font-size: 1.25rem;
+  border-radius: 2rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+
+  background-color: rgba(255, 255, 255, 0.063);
+  color: white;
+  margin-bottom: 2rem;
+  transition: all 0.3s ease;
+}
+
+.eventsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.addPartyButton {
+  position: fixed;
+  bottom: 2.5rem;
+  right: 2vw;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 1rem;
+  background: #444343;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  transition: all 0.2s ease;
+}
+
+.addPartyButton:hover,
+.addPartyButton:focus {
+  background: linear-gradient(to right, #6c31a0, #564ce2);
+  transform: scale(1.08);
+  outline: none;
+}
